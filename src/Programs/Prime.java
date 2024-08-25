@@ -16,6 +16,7 @@ public class Prime {
                 isPrime = false;
                 break;
             }
+
         }
         if(isPrime)
             System.out.println(num + "number is prime");

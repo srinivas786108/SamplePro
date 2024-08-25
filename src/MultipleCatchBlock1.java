@@ -4,7 +4,7 @@ public class MultipleCatchBlock1 {
 
         try{
             int a[]=new int[5];
-            a[2]=30/6;
+            a[7]=30/0;
             System.out.println(a[2]);
         }
         catch(ArithmeticException e)
